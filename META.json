@@ -16,6 +16,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
+            "Devel::CallParser" : "0",
             "ExtUtils::MakeMaker" : "6.30"
          }
       },
@@ -52,7 +53,7 @@
          "web" : "https://github.com/doy/try"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -240,6 +241,17 @@
                }
             },
             "name" : "Prereqs",
+            "version" : "4.300020"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Prereqs",
+            "config" : {
+               "Dist::Zilla::Plugin::Prereqs" : {
+                  "phase" : "configure",
+                  "type" : "requires"
+               }
+            },
+            "name" : "ConfigureRequires",
             "version" : "4.300020"
          },
          {

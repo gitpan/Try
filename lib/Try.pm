@@ -3,7 +3,7 @@ BEGIN {
   $Try::AUTHORITY = 'cpan:DOY';
 }
 {
-  $Try::VERSION = '0.01';
+  $Try::VERSION = '0.02';
 }
 use strict;
 use warnings;
@@ -45,7 +45,7 @@ Try - nicer exception handling syntax
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
