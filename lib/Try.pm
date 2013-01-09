@@ -3,7 +3,7 @@ BEGIN {
   $Try::AUTHORITY = 'cpan:DOY';
 }
 {
-  $Try::VERSION = '0.02';
+  $Try::VERSION = '0.03';
 }
 use strict;
 use warnings;
@@ -37,6 +37,7 @@ sub try {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -45,7 +46,7 @@ Try - nicer exception handling syntax
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -144,11 +145,10 @@ Jesse Luehrs <doy at cpan dot org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2012 by Jesse Luehrs.
+This software is Copyright (c) 2013 by Jesse Luehrs.
 
 This is free software, licensed under:
 
   The MIT (X11) License
 
 =cut
-
